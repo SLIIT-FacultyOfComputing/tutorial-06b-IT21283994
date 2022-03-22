@@ -4,8 +4,12 @@ class Box {
        int width;
        int height;
     public:
-       // write prototypes of setters for length, width and height
-       // write prototypes of getters for length, width and height
- 
+       void setWidth(width w);
+       void setLength(length l);
+       void setHeight(height h);
+       int getWidth();
+       int getLength();
+       int getHeight(); 
+
        int calcVolume();
 };
